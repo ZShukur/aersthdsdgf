@@ -1,0 +1,61 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  -webkit-box-shadow: 0px -5px 5px -3px rgba(34, 60, 80, 0.6) inset;
+  -moz-box-shadow: 0px -5px 5px -3px rgba(34, 60, 80, 0.6) inset;
+  box-shadow: 0px -5px 5px -3px rgba(34, 60, 80, 0.6) inset;
+  padding-bottom: 1rem;
+}
+
+#intro {
+  background: url("../img/Background.jpg");
+  height: 90vh;
+  background-position: 0 -15vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4rem;
+  text-shadow: 4px -2px 4px rgba(149, 150, 150, 1);
+  color: white;
+  text-align: center;
+}
+
+.submit-application {
+  font-size: 1.5rem;
+  padding: 0.6rem 3rem;
+  border-radius: 5rem;
+  -webkit-box-shadow: 11px -10px 9px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 11px -10px 9px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 11px -10px 9px -5px rgba(34, 60, 80, 0.6);
+}
+
+#outsourcing p {
+  font-size: 1.5rem;
+}
+
+#services {
+  background-image: url(../img/services-bg-opacity.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#causes {
+  background-image: url(../img/causes-bg-dark.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-image: url(../img/footer-bg.jpg);
+}
